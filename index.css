@@ -12,14 +12,22 @@ nav{
 }
 
 .container{
-      display: flex;
+   
+ display: inline;
+ display: flex;
+ text-decoration-line: inline; }
+.gambar{
+  display: flex;
     justify-content: space-around;
     align-items: center;
     align-content: center;
     flex-direction: column;
+
 }
 
-.gambar{
- 
-}
 
+@media(max-widht : 390px){
+        .cari{
+            display: none;
+        }
+}
