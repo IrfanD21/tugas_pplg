@@ -22,12 +22,16 @@ nav{
     align-items: center;
     align-content: center;
     flex-direction: column;
+    padding: 10px;
 
 }
 
 
-@media(max-widht : 390px){
+@media(max-widht : 600px){
         .cari{
             display: none;
+        }
+        .body{
+            background-color: rgb(124, 240, 124);
         }
 }
