@@ -35,6 +35,21 @@ nav{
 }
 
 
+
+.d-flex {
+    display: flex!important;
+    position: relative;
+    left: 18%;}
+
+.btn btn-outline-secondary{
+    justify-items: end;
+}
+
+.container-fluid{
+    width: 64%;
+}
+
+
 @media(max-widht : 600px){
         .cari{
             display: none;
